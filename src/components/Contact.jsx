@@ -4,7 +4,7 @@ import styled from "styled-components";
 // import Map from "./Map";
 
 const Section = styled.div`
-  height:100vh;
+  height:140vh;
   scroll-snap-align: center;
   @media only screen and (max-width: 1028px) {
    height:100%;
@@ -12,7 +12,7 @@ const Section = styled.div`
 `;
 
 const Container = styled.div`
-  margin-top:70px;
+  margin-top:150px;
   width: 100%;
   height: 100%;
   display: flex;
@@ -172,26 +172,36 @@ const Contact = () => {
           </Form>
         </Left>
         <Right>
-        <div className="iconsclass">
-         <i  class="fa-brands fa-whatsapp fa-3x"></i>
+        <div className="iconsclass" style={{display:'flex',justifyContent:"space-between",alignItems:"center"}}>
+          <div>
+          <i  class="fa-brands fa-whatsapp fa-3x"></i>
           <h3 style={{marginTop:"5px",fontSize:"10px"}} >whatsapp</h3>
-          {/* <p style={{textAlign:"center",marginTop:"20px"}} >+916383627745</p> */}
-          <button style={{marginTop:"5px",fontSize:"10px"}} className="btn btn-lg btn-block btn-dark " type="button">+916383627745</button>
+          </div>
+         <div>
+          <button style={{margin:"5px",fontSize:"10px"}} className="btn btn-lg btn-block btn-dark " type="button">+91-9994202384</button>
+          <button style={{margin:"5px",fontSize:"10px"}} className="btn btn-lg btn-block btn-dark " type="button">+91-8248010849</button>
+          </div>
         </div>
    
         <div className="iconsclass">
+        <div>
         <i class="fa-brands fa-linkedin fa-3x"></i>
         <h3 style={{marginTop:"5px",fontSize:"10px"}}>linkedin</h3>
-       <button style={{marginTop:"5px",fontSize:"10px"}} className='btn btn-lg btn-block btn-dark'><a style={{textDecoration:"none",color:"white"}} href="https://www.linkedin.com/in/rakesh-m-b67121217/" target="blank">Profile</a></button>
+        </div>
+       <button style={{margin:"5px",fontSize:"10px"}} className='btn btn-lg btn-block btn-dark'><a style={{textDecoration:"none",color:"white"}} href="https://www.linkedin.com/in/rakesh-m-b67121217/" target="blank">Profile</a></button>
    
           {/* <button class="btn btn-lg btn-block btn-dark button-in-cart" type="button">tanpsycon_2023</button> */}
         </div>
  
         <div className="iconsclass"  >
+        <div>
        <i class="fa-solid fa-envelope fa-3x"></i>
         <h3 style={{marginTop:"5px",fontSize:"10px"}}>Mail-id</h3>
+        </div>
         {/* <p  style={{textAlign:"center",marginTop:"20px"}} >mrakeshmrakesh885@gmail.com</p> */}
-        <button style={{marginTop:"5px",fontSize:"10px"}} class="btn btn-lg btn-block btn-dark" type="button">mrakeshmrakesh885@gmail.com</button>
+        <button style={{margin:"5px",fontSize:"10px"}} class="btn btn-lg btn-block btn-dark" type="button">mprpowertech@gmail.com</button>
+        <button style={{margin:"5px",fontSize:"10px"}} class="btn btn-lg btn-block btn-dark" type="button">prasannajackmathew@gmail.com</button>
+        <button style={{margin:"5px",fontSize:"10px"}} class="btn btn-lg btn-block btn-dark" type="button">mrakeshmrakesh885@gmail.com</button>
         </div>
         </Right>
       </Container>

@@ -127,14 +127,19 @@ a.new.nav-link{
     color: black !important;
   
 }
+
+.gallerycard{
+    width:300px !important;
+    height:500px !important;
+    box-shadow: 10px 15px 10px rgba(0,0,0,.5);
+}
   /* this is icon section */
   .iconsclass{
     display: flex;
-    flex-direction: column;
-    justify-content:space-around;
+    justify-content:space-between;
     align-items:center;
     text-align: center;
-   
+   gap:10px;
 
   }
   @media(max-width:1028px){
@@ -167,7 +172,12 @@ a.new.nav-link{
   }
   .w-100 {
     width: 100%!important;
-    height: fit-content;
+    height:50% !important;
+}
+.gallerycard{
+    width:100%;
+    height:80%;
+    box-shadow: 10px 15px 10px rgba(0,0,0,.5);
 }
   
 }

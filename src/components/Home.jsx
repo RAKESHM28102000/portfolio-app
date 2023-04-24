@@ -1,36 +1,32 @@
 import React from "react";
 import styled from "styled-components";
 import About from "./About";
-import Projects from "./Projects";
 import Contact from "./Contact";
-import Works from "./Works";
 import Footer from "./Footer";
-import Gallery from "./Gallery";
 // import Navbar from "./Navbar";
 
 
 const Section = styled.div`
-  height: 100vh;
+  height:100vh;
   scroll-snap-align: center;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
   @media only screen and (max-width:1028px) {
-    height:140vh;
+    height:100%;
   }
 `;
 
 const Container = styled.div`
-  height: 100%;
   scroll-snap-align: center;
   width:1100px;
   display: flex;
-  justify-content: space-between;
+  justify-content:center;
   textAlign:center;
+  marginTop:100px;
   @media only screen and (max-width:1028px) {
-    width: 100%;
-    height:100%;
+    marginTop:150px;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -51,15 +47,13 @@ const Left = styled.div`
   @media only screen and (max-width:1028px) {
     flex: 1;
     align-items: center;
+    justifyContent:center;
   }
 `;
 
 const Title = styled.h1`
   font-size:50px;
   padding:10px;
-  ${'' /* @media only screen and (max-width: 768px) {
-    text-align: center;
-  } */}
   @media only screen and (max-width:1028px) {
     text-align: center;
     font-size:30px;
@@ -70,12 +64,13 @@ const Title = styled.h1`
 const WhatWeDo = styled.div`
   display: flex;
   align-items: center;
+  justifyContent:center;
   gap:7px;
   padding:5px;
   textAlign:center;
 `;
 const Subtitle = styled.h2`
-    padding:10px;
+    padding:5px;
     font-size:20px;
     textAlign:center;
     color:white;
@@ -89,7 +84,7 @@ const Subtitle = styled.h2`
 const Desc = styled.p`
   font-size:20px;
   color:white;
-  padding:20px;
+  padding:10px;
   ${'' /* color: lightgray; */}
   @media only screen and (max-width:1028px) {
     padding:5px;
@@ -118,18 +113,17 @@ const Button = styled.button`
 const Right = styled.div`
   flex:1;
   display: flex;
-  margin-top:100px;
+  margin-top:10px;
   flex-direction: column;
   justify-content:center;
   align-items: center;
-  gap:18px;
+  gap:15px;
   border-radius:1%;
   textAlign:center;
   ${'' /* box-shadow:10px 10px 15px rgba(0,0,0,.5),
               inset 4px 4px 10px  rgba(0,0,0,.5); */}
   @media only screen and (max-width:1028px) {
-    flex: 1;
-    align-items: center;
+   display:none;
   }
 `;
 
@@ -139,9 +133,9 @@ const Home = () => {
   return (<section id="home">
     <Section>
       {/* <Navbar /> */}
-      <Container>
+      <Container style={{marginTop:"100px"}}>
         <Left>
-          <Title>MPR POWER TECH</Title>
+          <Title >MPR POWER TECH</Title>
           <WhatWeDo>
             {/* <Line src="./img/line.png" /> */}
             <Subtitle>No resistance can drop our potential.</Subtitle>
@@ -152,18 +146,15 @@ const Home = () => {
           <Button><a href="https://www.linkedin.com/in/rakesh-m-b67121217/" target="blank">Learn More</a></Button>
         </Left>
         <Right>
-        <img src="./images/energy (1).png" alt="logo1" width={200} height={200}/>
+        <img src="./images/energy (1).png" alt="logo1" width={180} height={180}/>
         <Desc>
             We step up, We Transform.
         </Desc>
-        <img src="./images/energy.png" alt="logo1" width={200} height={200}/>
+        <img src="./images/energy.png" alt="logo1" width={180} height={180}/>
         </Right>
       </Container>
     </Section>
     <About/>
-    <Works/>
-    <Projects/>
-    <Gallery/>
     <Contact/>
     <Footer/>
     </section>

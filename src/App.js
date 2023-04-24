@@ -8,6 +8,7 @@ import Works from './components/Works';
 import Projects from './components/Projects';
 import Contact from './components/Contact';
 import Navbar from './components/Navbar';
+import Gallery from './components/Gallery';
 
 
 
@@ -37,6 +38,7 @@ function App() {
          <Route path='/about' element={<About/>}/>
          <Route path='/work' element={<Works/>}/>
          <Route path='/project' element={<Projects/>}/>
+         <Route path='/gallery' element={<Gallery/>}/>
          <Route path='/contact' element={<Contact/>}/>
       </Routes>
       </Container>    
