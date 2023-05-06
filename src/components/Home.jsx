@@ -3,6 +3,7 @@ import styled from "styled-components";
 import About from "./About";
 import Contact from "./Contact";
 import Footer from "./Footer";
+import Gallery from "./Gallery";
 // import Navbar from "./Navbar";
 
 
@@ -155,6 +156,7 @@ const Home = () => {
       </Container>
     </Section>
     <About/>
+    <Gallery/>
     <Contact/>
     <Footer/>
     </section>

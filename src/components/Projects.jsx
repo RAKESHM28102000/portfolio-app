@@ -3,12 +3,12 @@ import styled from 'styled-components';
 import Workcard from './Workcard';
 
 const Section = styled.div`
-  height:100%;
+  height:140vh;
   scroll-snap-align: center;
   display: flex;
   flex-direction:column;
   align-items:center;
-  justify-content:center;
+  ${'' /* justify-content:center; */}
   @media only screen and (max-width:1028px) {
     height:100%;
     align-items:center;

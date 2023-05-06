@@ -156,7 +156,7 @@ const Contact = () => {
       <Container>
         <Left>
           <Form ref={ref} onSubmit={handleSubmit}>
-            <Title>Contact Me</Title>
+            <Title>Contact Us</Title>
             <Input placeholder="Name" name="name" value={form.name} onChange={setform}/>
             <Input placeholder="Email" name="email" value={form.email} onChange={setform} />
             <TextArea
@@ -167,8 +167,8 @@ const Contact = () => {
               onChange={setform}
             />
             <Button type="submit">Send</Button>
-           <h2>{success &&
-              "Your message has been sent. We'll get back to you soon :)"}</h2>
+           <h4>{success &&
+              "Your message has been sent. We'll get back to you soon :)"}</h4>
           </Form>
         </Left>
         <Right>
