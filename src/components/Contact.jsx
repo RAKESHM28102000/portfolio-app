@@ -4,7 +4,7 @@ import styled from "styled-components";
 // import Map from "./Map";
 
 const Section = styled.div`
-  height:140vh;
+  height:100vh;
   scroll-snap-align: center;
   @media only screen and (max-width: 1028px) {
    height:100%;
@@ -12,30 +12,24 @@ const Section = styled.div`
 `;
 
 const Container = styled.div`
-  margin-top:150px;
+  margin-top:100px;
   width: 100%;
-  height: 100%;
   display: flex;
-  justify-content: space-between;
-  gap:20px;
+  align-items:center;
+  justify-content:center;
+
   @media only screen and (max-width: 1028px) {
-    display:flex;
-    flex-direction:column;
+    margin-top:50px;
     align-items:center;
     justify-content:center;
-    margin-top:5px;
   }
 `;
 
 const Left = styled.div`
-  flex: 1;
-  display: flex;
-  align-items: center;
-  justify-content: flex-end;
-  margin-top:50px;
+  margin-top:70px;
   @media only screen and (max-width: 1028px) {
-    justify-content: center;
-    width:100%;
+    margin-top:50px;
+    
   }
 `;
 
@@ -154,7 +148,7 @@ const Contact = () => {
   return (<section id="contact">
     <Section>
       <Container>
-        <Left>
+          <Left>
           <Form ref={ref} onSubmit={handleSubmit}>
             <Title>Contact Us</Title>
             <Input placeholder="Name" name="name" value={form.name} onChange={setform}/>
@@ -170,8 +164,8 @@ const Contact = () => {
            <h4>{success &&
               "Your message has been sent. We'll get back to you soon :)"}</h4>
           </Form>
-        </Left>
-        <Right>
+          </Left>
+        {/* <Right>
         <div className="iconsclass" style={{display:'flex',justifyContent:"space-between",alignItems:"center"}}>
           <div>
           <i  class="fa-brands fa-whatsapp fa-3x"></i>
@@ -190,20 +184,18 @@ const Contact = () => {
         </div>
        <button style={{margin:"5px",fontSize:"10px"}} className='btn btn-lg btn-block btn-dark'><a style={{textDecoration:"none",color:"white"}} href="https://www.linkedin.com/in/rakesh-m-b67121217/" target="blank">Profile</a></button>
    
-          {/* <button class="btn btn-lg btn-block btn-dark button-in-cart" type="button">tanpsycon_2023</button> */}
-        </div>
+               </div>
  
         <div className="iconsclass"  >
         <div>
        <i class="fa-solid fa-envelope fa-3x"></i>
         <h3 style={{marginTop:"5px",fontSize:"10px"}}>Mail-id</h3>
         </div>
-        {/* <p  style={{textAlign:"center",marginTop:"20px"}} >mrakeshmrakesh885@gmail.com</p> */}
-        <button style={{margin:"5px",fontSize:"10px"}} class="btn btn-lg btn-block btn-dark" type="button">mprpowertech@gmail.com</button>
+              <button style={{margin:"5px",fontSize:"10px"}} class="btn btn-lg btn-block btn-dark" type="button">mprpowertech@gmail.com</button>
         <button style={{margin:"5px",fontSize:"10px"}} class="btn btn-lg btn-block btn-dark" type="button">prasannajackmathew@gmail.com</button>
         <button style={{margin:"5px",fontSize:"10px"}} class="btn btn-lg btn-block btn-dark" type="button">mrakeshmrakesh885@gmail.com</button>
         </div>
-        </Right>
+        </Right> */}
       </Container>
     </Section>
     </section>

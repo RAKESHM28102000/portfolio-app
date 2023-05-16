@@ -40,7 +40,7 @@ function Navbar() {
         </ul>
         <form className="d-flex" role="search">
           {/* <div> <img src="./img/startup.png" alt="Logo" width="30px" height="30px" className="d-inline-block align-text-top navbarBrandimage"/> </div> */}
-        <button className="btn btn-outline-secondary navbarbutton" type="submit">Sign in</button>
+        <button className="btn btn-outline-secondary navbarbutton" type="submit"><NavLink className="nav-link" to="/contact">Sign in</NavLink></button>
         </form>
       </div>
     </div>

@@ -142,7 +142,7 @@ const Home = () => {
             <Subtitle>No resistance can drop our potential.</Subtitle>
           </WhatWeDo>
           <Desc>
-            We step up, We Transform.
+            MEP CONSULTANT AND CONTRACTOR.
           </Desc>
           <Button><a href="https://www.linkedin.com/in/rakesh-m-b67121217/" target="blank">Learn More</a></Button>
         </Left>

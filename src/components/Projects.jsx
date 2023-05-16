@@ -21,16 +21,10 @@ function Projects() {
 <Section>
 <div><h1 style={{marginTop:"100px"}}>PROJECTS</h1></div>
 <div className='container workcontainer'>
-<Workcard title={"Get"} content={"more than 10+years of experiance"}/>
-<Workcard title={"Get"} content={"more than 10+years of experiance"}/>
-<Workcard title={"Get"} content={"more than 10+years of experiance"}/>
-<Workcard title={"Get"} content={"more than 10+years of experiance"}/>
-<Workcard title={"Get"} content={"more than 10+years of experiance"}/>
-<Workcard title={"Get"} content={"more than 10+years of experiance"}/>
-<Workcard title={"Get"} content={"more than 10+years of experiance"}/>
-<Workcard title={"Get"} content={"more than 10+years of experiance"}/>
-<Workcard title={"Get"} content={"more than 10+years of experiance"}/>
-
+<Workcard title={"GET"} content={"more than 15+years of working experiance"}/>
+<Workcard title={"Madura Electricals"} content={"more than 10+years of experiance"}/>
+<Workcard title={"Siva Engergy pvt ltd"} content={"more than 5+years of working experiance"}/>
+<Workcard title={"others projects"} content={"more than 25+years of working experiance"}/>
      
      </div>  
 </Section>

@@ -28,85 +28,65 @@ function Gallery() {
      <div className="media-scroller snaps-inline" style={{marginTop:"50px"}} >
       <div className="media-element ">
         <img src="../images/work4.jpg" alt="works"  />
-        <p>works by mpr</p>
+        <p>MPR POWER TECH</p>
+      </div>
+      <div className="media-element">
+        <img src="../images/transformer1.jpg" alt="works"  />
+        <p>MPR POWER TECH</p>
+      </div>
+      <div className="media-element">
+        <img src="../images/transformer2.jpg" alt="works"  />
+        <p>MPR POWER TECH</p>
+      </div>
+      <div className="media-element">
+        <img src="../images/transform-3.jpg" alt="works"  />
+        <p>MPR POWER TECH</p>
+      </div>
+      <div className="media-element">
+        <img src="../images/transformer-4.jpg" alt="works"  />
+        <p>MPR POWER TECH</p>
+      </div>
+      <div className="media-element">
+        <img src="../images/work1.jpg" alt="works"  />
+        <p>MPR POWER TECH</p>
+      </div>
+      <div className="media-element">
+        <img src="../images/work2.jpg" alt="works"  />
+        <p>MPR POWER TECH</p>
+      </div>
+      <div className="media-element">
+        <img src="../images/work3.jpg" alt="works"  />
+        <p>MPR POWER TECH</p>
       </div>
       <div className="media-element">
         <img src="../images/work4.jpg" alt="works"  />
-        <p>works by mpr</p>
+        <p>MPR POWER TECH</p>
+      </div>
+      <div className="media-element">
+        <img src="../images/weilding1.jpg" alt="works"  />
+        <p>MPR POWER TECH</p>
+      </div>
+      <div className="media-element">
+        <img src="../images/weilding2.jpg" alt="works"  />
+        <p>MPR POWER TECH</p>
+      </div>
+      <div className="media-element">
+        <img src="../images/pluming.jpg" alt="works"  />
+        <p>MPR POWER TECH</p>
+      </div>
+      <div className="media-element">
+        <img src="../images/panel1.jpg" alt="works"  />
+        <p>MPR POWER TECH</p>
+      </div>
+      <div className="media-element">
+        <img src="../images/panel2.jpg" alt="works"  />
+        <p>MPR POWER TECH</p>
       </div>
       <div className="media-element">
         <img src="../images/work4.jpg" alt="works"  />
-        <p>works by mpr</p>
+        <p>MPR POWER TECH</p>
       </div>
-      <div className="media-element">
-        <img src="../images/work4.jpg" alt="works"  />
-        <p>works by mpr</p>
-      </div>
-      <div className="media-element">
-        <img src="../images/work4.jpg" alt="works"  />
-        <p>works by mpr</p>
-      </div>
-      <div className="media-element">
-        <img src="../images/work4.jpg" alt="works"  />
-        <p>works by mpr</p>
-      </div>
-      <div className="media-element">
-        <img src="../images/work4.jpg" alt="works"  />
-        <p>works by mpr</p>
-      </div>
-      <div className="media-element">
-        <img src="../images/work4.jpg" alt="works"  />
-        <p>works by mpr</p>
-      </div>
-      <div className="media-element">
-        <img src="../images/work4.jpg" alt="works"  />
-        <p>works by mpr</p>
-      </div>
-      <div className="media-element">
-        <img src="../images/work4.jpg" alt="works"  />
-        <p>works by mpr</p>
-      </div>
-      <div className="media-element">
-        <img src="../images/work4.jpg" alt="works"  />
-        <p>works by mpr</p>
-      </div>
-      <div className="media-element">
-        <img src="../images/work4.jpg" alt="works"  />
-        <p>works by mpr</p>
-      </div>
-      <div className="media-element">
-        <img src="../images/work4.jpg" alt="works"  />
-        <p>works by mpr</p>
-      </div>
-      <div className="media-element">
-        <img src="../images/work4.jpg" alt="works"  />
-        <p>works by mpr</p>
-      </div>
-      <div className="media-element">
-        <img src="../images/work4.jpg" alt="works"  />
-        <p>works by mpr</p>
-      </div>
-      <div className="media-element">
-        <img src="../images/work4.jpg" alt="works"  />
-        <p>works by mpr</p>
-      </div>
-      <div className="media-element">
-        <img src="../images/work4.jpg" alt="works"  />
-        <p>works by mpr</p>
-      </div>
-      <div className="media-element">
-        <img src="../images/work4.jpg" alt="works"  />
-        <p>works by mpr</p>
-      </div>
-      <div className="media-element">
-        <img src="../images/work4.jpg" alt="works"  />
-        <p>works by mpr</p>
-      </div>
-      <div className="media-element">
-        <img src="../images/work4.jpg" alt="works"  />
-        <p>works by mpr</p>
-      </div>
-      
+     
      </div>
      {/* this is for section group gallery */}
      {/* <div style={{display:"flex",justifyContent:"center",alignItems:"center"}}><h1 style={{marginTop:"100px"}}>Gallery</h1></div>
@@ -114,60 +94,60 @@ function Gallery() {
     <div className="media-group">
       <div className="media-element ">
         <img src="../images/work4.jpg" alt="works"  />
-        <p>works by mpr</p>
+        <p>MPR POWER TECH</p>
       </div>
       <div className="media-element">
         <img src="../images/work4.jpg" alt="works"  />
-        <p>works by mpr</p>
+        <p>MPR POWER TECH</p>
       </div>
       <div className="media-element">
         <img src="../images/work4.jpg" alt="works"  />
-        <p>works by mpr</p>
+        <p>MPR POWER TECH</p>
       </div>
     </div>
 
     <div className="media-group">
       <div className="media-element">
         <img src="../images/work4.jpg" alt="works"  />
-        <p>works by mpr</p>
+        <p>MPR POWER TECH</p>
       </div>
       <div className="media-element">
         <img src="../images/work4.jpg" alt="works"  />
-        <p>works by mpr</p>
+        <p>MPR POWER TECH</p>
       </div>
       <div className="media-element">
         <img src="../images/work4.jpg" alt="works"  />
-        <p>works by mpr</p>
+        <p>MPR POWER TECH</p>
       </div>
       </div>
 
       <div className="media-group">
       <div className="media-element">
         <img src="../images/work4.jpg" alt="works"  />
-        <p>works by mpr</p>
+        <p>MPR POWER TECH</p>
       </div>
       <div className="media-element">
         <img src="../images/work4.jpg" alt="works"  />
-        <p>works by mpr</p>
+        <p>MPR POWER TECH</p>
       </div>
       <div className="media-element">
         <img src="../images/work4.jpg" alt="works"  />
-        <p>works by mpr</p>
+        <p>MPR POWER TECH</p>
       </div>
       </div>
 
       <div className="media-group">
       <div className="media-element">
         <img src="../images/work4.jpg" alt="works"  />
-        <p>works by mpr</p>
+        <p>MPR POWER TECH</p>
       </div>
       <div className="media-element">
         <img src="../images/work4.jpg" alt="works"  />
-        <p>works by mpr</p>
+        <p>MPR POWER TECH</p>
       </div>
       <div className="media-element">
         <img src="../images/work4.jpg" alt="works"  />
-        <p>works by mpr</p>
+        <p>MPR POWER TECH</p>
       </div>
       </div>
 
